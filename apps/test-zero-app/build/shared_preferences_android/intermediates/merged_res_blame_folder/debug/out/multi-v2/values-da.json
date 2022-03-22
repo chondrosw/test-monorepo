@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chondrosatriowibowo/Downloads/Belajar/flutter-test-zero/apps/test-zero-app/build/shared_preferences_android/intermediates/res/merged/debug/values-da/values-da.xml",
+            "map": [
+                {
+                    "source": "/Users/chondrosatriowibowo/.gradle/caches/transforms-2/files-2.1/37f65d9ede5915b9f72c877e6f0855ec/core-1.6.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/chondrosatriowibowo/Downloads/Belajar/flutter-test-zero/apps/test-zero-app/build/shared_preferences_android/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
+            "map": [
+                {
+                    "source": "/Users/chondrosatriowibowo/.gradle/caches/transforms-2/files-2.1/37f65d9ede5915b9f72c877e6f0855ec/core-1.6.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

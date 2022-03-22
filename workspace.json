@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projects": {
+    "test-zero-app": "apps/test-zero-app"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "root": "apps/test-zero-app",
+  "sourceRoot": "apps/test-zero-app/src",
+  "projectType": "application",
+  "targets": {
+    "analyze": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter analyze",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "clean": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "format": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter format apps/test-zero-app/*",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter test",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "assemble": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter assemble",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "attach": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter attach",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "drive": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter drive",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "genL10n": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter gen-l10n",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "install": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter install",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "run": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter run",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "buildAar": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build aar",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "buildApk": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build apk",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "buildAppbundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build appbundle",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "buildBundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build bundle",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "buildIos": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "buildIosFramework": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios-framework",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "buildIpa": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ipa",
+        "cwd": "apps/test-zero-app"
+      }
+    },
+    "test-zero": {
+      "executor": "@nrwl/workspace:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "NX_BRANCH=testing npx nx run test-zero:build"
+      }
+    }
+  },
+  "tags": []
+}
